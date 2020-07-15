@@ -1,0 +1,107 @@
+body {
+	background-color: #264282;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	text-align: center;
+	overflow: hidden;
+}
+h1 {
+	margin: 10px auto;
+	color: #B4D5FF;
+	font-size: 5.625rem;
+	font-weight: lighter;
+}
+
+.texto {
+	background-color: #CFE4FF;
+	padding: 5px;
+	padding-left: 25px;
+	border: 0;
+	border-radius: 28px; 
+	width: 300px;
+	height: 30px;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1rem;
+	color: #0B296D;
+	writing-mode: inherit;
+	font-weight: bolder;
+	display: inline;
+	outline: none;
+	transition: 100ms;
+}
+.texto:hover {
+	transform: scale(1.02);
+	background-color: #526797;
+	color: #CFE4FF;
+	
+}
+.button {
+	background-color: #CFE4FF;
+	padding: 5px;
+	border: 0;
+	border-radius: 28px; 
+	width: 100px;
+	height: 40px;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1rem;
+	color: #264282;
+	font-weight: bolder;
+	display: inline-block;	
+	outline: none;
+	transition: 100ms;
+}
+.button:hover {
+	cursor: pointer;
+	transform: scale(1.02);
+	background-color: #526797;
+	color: #CFE4FF;
+	
+}
+.bloc {
+	background-color: #FFC81D;
+	width: 400px;
+	height: 320px;
+	border-radius: 50px;
+	margin: 30px auto;
+	padding-top: 80px;
+
+}
+.bloc2 {
+	background-color: #F8FF8C;
+	width: 400px;
+	height: 320px;
+	border-radius: 0 0 50px 50px;
+	overflow: auto;
+	padding-bottom: 10px;
+
+}
+.bloc2 p{
+	width: 95%;
+	text-align: left; 
+	margin: 5px;
+	padding: 5px;
+	border-bottom: solid #B29230;
+	border-bottom-width: 100%;
+	color: #423201;
+	font-weight: bold;
+	
+}
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #B29230;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #D8C280;
+}

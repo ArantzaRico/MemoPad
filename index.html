@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bloc de Notas</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<h1>Notes</h1>
+	<div class="conjunto">
+		<input class="texto" id="entrada" type="text" placeholder="Write a note..."/>
+		<button class="button" id="enviar" type="button">keep</button>	
+	</div>
+	<div class="bloc">	
+		<div class="bloc2" id="renglon">
+		</div>	
+	</div>
+	<script type="text/javascript">
+		const boton = document.getElementById("enviar");
+		
+		const createText=() => {
+			let texto = document.getElementById('entrada').value;
+			let p = document.createElement("p");
+			let text = document.createTextNode(texto);
+			p.appendChild(text);
+			document.getElementById('renglon').appendChild(p);
+			document.getElementById('entrada').value = "";
+
+		}
+		boton.addEventListener("click",createText);
+
+
+
+
+	</script>
+</body>
+</html>
